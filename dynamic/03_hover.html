@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 Hover - UI/UX Workshop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body class="bg-gray-50">
+  <header class="bg-white px-4 py-3 border-b flex items-center justify-between">
+    <img src="../TailwindCSS/images/logo.jpg" alt="ロゴ" class="h-28 w-32">
+    <nav class="mt-2 space-x-4 flex items-center">
+      <a href="00_base.html" class="px-2 py-1 hover:text-amber-600 transition-colors">Base</a>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6 grid gap-6 md:grid-cols-3">
+    <a href="#" class="group block rounded overflow-hidden border">
+      <img src="../TailwindCSS/images/coffee.jpg" alt="ホット"
+           class="w-full h-48 object-cover transition duration-300 ease-out group-hover:scale-105 group-hover:brightness-110" />
+      <div class="p-3 text-center transition group-hover:shadow">ホットドリンク</div>
+    </a>
+
+    <a href="#" class="group block rounded overflow-hidden border">
+      <img src="../TailwindCSS/images/icecoffee.jpg" alt="アイス"
+           class="w-full h-48 object-cover transition duration-300 ease-out group-hover:scale-105 group-hover:brightness-110" />
+      <div class="p-3 text-center transition group-hover:shadow">アイスドリンク</div>
+    </a>
+
+    <a href="#" class="group block rounded overflow-hidden border">
+      <img src="../TailwindCSS/images/sandwich.jpg" alt="軽食"
+           class="w-full h-48 object-cover transition duration-300 ease-out group-hover:scale-105 group-hover:brightness-110" />
+      <div class="p-3 text-center transition group-hover:shadow">軽食</div>
+    </a>
+  </main>
+</body>
+</html>
+
+
